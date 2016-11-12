@@ -6,7 +6,7 @@ print "Kosgu Bot has been started."
 
 import telebot
 
-API_TOKEN = '<YourToken>'
+API_TOKEN = '137887997:AAHFavdNJmHOj9_-r8EPCQRjfjbVQfTwekU'
 
 bot = telebot.TeleBot(API_TOKEN)
 
@@ -14,16 +14,16 @@ bot = telebot.TeleBot(API_TOKEN)
 @bot.message_handler(commands=['help', 'start'])
 def send_welcome(message):
     bot.reply_to(message, """\
-Hi there, I am Kos Goo Bot.
+Hi there, I am Kus Gu Bot.
 I am here to echo your kind words back to you. Just say anything nice and I'll say the exact same thing to you!
-Created By @ArashEmp\
+Created By @Ali_Sudo\
 """)
 
 @bot.message_handler(commands=['credits', 'about'])
 def send_welcome(message):
     bot.reply_to(message, """\
 Hi there, I am KosGu BOT
-An Multi Purpose Telegram Bot Written In Python By @ArashEmp
+An Multi Purpose Telegram Bot Written In Python By @Ali_Sudo
 Licenced Under Gnu General v.3 License!\
 """)
 
